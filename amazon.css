@@ -1,0 +1,428 @@
+.condainer{
+    background-color: rgb(37, 43, 43);
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+}
+body{
+    margin: 0;
+}
+.condainer-header{
+    display: flex;
+    align-items: center;
+}
+.logo-condainer{
+ height: 48px;
+ display: flex;
+ font-size: 1rem;
+ align-items: center;
+}
+
+.logo{
+    background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png");
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position-y:-40px;
+    width: 120px;
+   overflow: hidden;
+
+}
+.dotin{
+    position: relative;
+    margin-left: -13px;
+    margin-top: -10px;
+}
+.border{
+    border: 1.5px solid transparent;
+    padding-left: 1px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 1px;
+    padding: 1px;
+}
+/*******adress********/
+
+.address p{
+    margin: 0;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add1{
+    font-size: 12px;
+    padding-left: 20px;
+    color: #ccc;
+    font-family: Arial;
+}
+.update{
+  font-size: 1vw;
+  font-weight: 700;
+}
+.icon-location{
+    margin-right: 7px;
+}
+.search-condainer{
+    background-color: rgb(247, 31, 31);
+    width: 620px;
+    display: flex;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.search-condainer:hover{
+    outline: 2px solid orange;
+}
+.search-bar{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    font-size: 0.9rem;
+    border: none;
+    align-items: center;
+}
+.search-icon{
+    width: 50px;
+    background-color: rgb(235, 160, 94);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+    
+}
+.language{
+    margin: 15px;
+    width: auto;
+}
+.lang-select{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    width: 42px;
+    text-align: center;
+    font-size: 1vw;
+  font-weight: 700;
+}
+.lang-select img{
+    width: 18px;
+}
+
+/**signin**/
+.nav-signin{
+    margin: 15px;
+}
+.nav-signin p{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #ccc;
+    font-size: 0.9vw;
+}
+.second-signin{
+    font-size: 1vw;
+    font-weight: 700;
+    align-items: center;
+}
+/**return**/
+.nav-return{
+    margin: 15px;
+}
+.nav-return p{
+    margin: 0;
+}
+.second-return{
+    font-size: 1vw;
+    font-weight: 700;
+    align-items: center;
+}
+span{
+    font-size: 0.85rem;
+}
+
+/**cart**/
+.nav-cart i{
+     font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/***panel***/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: arial;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-options{
+    width: 94%;
+    font-size: 0.85rem;
+}
+/****main-section***/
+.main-section{
+    background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg-section{
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px;
+}
+.msg-section a{
+    color: #007185;
+}
+/****shop****/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(245, 241, 199);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-content p{
+    color: #007185;
+}
+.long-product{
+    display: flex;
+    background-color: rgb(245, 241, 199);
+}
+.long-box{
+    width: 96%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px 0px 15px;
+}
+.long-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.long-box p{
+     margin-left: 15px;
+     font-family:  "Amazon Ember",Arial,sans-serif;
+     font-size: 1.8rem;
+     font-weight: 700;
+}
+.long-box2{
+    width: 96%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px 0px 15px;
+}
+.long-content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.long-box2 p{
+    margin-left: 15px;
+    font-family:  "Amazon Ember",Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.long-books{
+    display: flex;
+    background-color: rgb(245, 241, 199);
+}
+/***grid box*****/
+.grid-section{
+    padding: 15px;
+    background-color: rgb(245, 241, 199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid-img img{
+    width: 130px;
+    height: 105px;
+    object-fit: cover;
+}
+.grid-box{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   max-width: 300px;
+}
+.heading {
+    margin-left: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight:600;
+}
+.grid-img p{
+    margin: 5px;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.grid-see{
+    color: #007185;
+    padding: 10px;
+}
+
+/****signin-section***/
+.signin-section{
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 30px 0;
+}
+.signin-section .signin-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(222, 245, 227);
+    padding: 30px 0;
+}
+.signin-section .signin-content p{
+    font-size: 1vw;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.signin-section .signin-content a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #007185;
+}
+.signin-section .signin-content button{
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding: 12px 60px;
+    background-color: #e9b227;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    width: 300px;
+}
+/*****footer*********/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    width: 100%;
+    background-color: #37475a;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #dddddd;
+    font-family: arial;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png");
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position-y:-40px;
+    width: 120px;
+    overflow: hidden;
+}
+.foot-panel4{
+    background-color: #131A22;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel5{
+    background-color: #131A22;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+    font-family: arial;
+}
+.copyright{
+    padding-top: 5px;
+    font-family: arial;
+}
